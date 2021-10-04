@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1523FBD6255A455400733FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523FBD5255A455400733FC1 /* AppDelegate.swift */; };
+		1523FBD8255A455400733FC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523FBD7255A455400733FC1 /* SceneDelegate.swift */; };
+		1523FBDA255A455400733FC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523FBD9255A455400733FC1 /* ViewController.swift */; };
+		1523FBDD255A455400733FC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1523FBDB255A455400733FC1 /* Main.storyboard */; };
+		1523FBDF255A455500733FC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1523FBDE255A455500733FC1 /* Assets.xcassets */; };
+		1523FBE2255A455500733FC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1523FBE0255A455500733FC1 /* LaunchScreen.storyboard */; };
+		1523FBED255A455600733FC1 /* Sleep_Tackler_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523FBEC255A455600733FC1 /* Sleep_Tackler_4Tests.swift */; };
+		1523FBF8255A455600733FC1 /* Sleep_Tackler_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523FBF7255A455600733FC1 /* Sleep_Tackler_4UITests.swift */; };
+		1523FC06255A4A9B00733FC1 /* TealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523FC05255A4A9B00733FC1 /* TealViewController.swift */; };
+		1523FC08255A4AAC00733FC1 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523FC07255A4AAC00733FC1 /* GreenViewController.swift */; };
+		1523FC0A255A4AB500733FC1 /* PurpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523FC09255A4AB500733FC1 /* PurpleViewController.swift */; };
+		1587854C255F33C200150A15 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1587854B255F33C200150A15 /* RedViewController.swift */; };
+		15B2B9B82562130F002B2E06 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2B9B72562130F002B2E06 /* EntryViewController.swift */; };
+		15B2B9BA25621332002B2E06 /* ViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2B9B925621332002B2E06 /* ViewViewController.swift */; };
+		2AA657D06E7D094F38A608AF /* Pods_Sleep_Tackler_4Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6150706390A6530C00F7C2CA /* Pods_Sleep_Tackler_4Tests.framework */; };
+		5A7990A018C2ECCC737A8D35 /* Pods_Sleep_Tackler_4_Sleep_Tackler_4UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E44B5FEB2EFD6735B4BEF7 /* Pods_Sleep_Tackler_4_Sleep_Tackler_4UITests.framework */; };
+		9C01D59ACC19A5204188BF27 /* Pods_Sleep_Tackler_4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6191BF3EDF6D103EBE5F68A /* Pods_Sleep_Tackler_4.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1523FBE9255A455600733FC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1523FBCA255A455400733FC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1523FBD1255A455400733FC1;
+			remoteInfo = Sleep_Tackler_4;
+		};
+		1523FBF4255A455600733FC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1523FBCA255A455400733FC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1523FBD1255A455400733FC1;
+			remoteInfo = Sleep_Tackler_4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1523FBD2255A455400733FC1 /* Sleep_Tackler_4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sleep_Tackler_4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1523FBD5255A455400733FC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1523FBD7255A455400733FC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1523FBD9255A455400733FC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1523FBDC255A455400733FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1523FBDE255A455500733FC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1523FBE1255A455500733FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1523FBE3255A455500733FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1523FBE8255A455600733FC1 /* Sleep_Tackler_4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sleep_Tackler_4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1523FBEC255A455600733FC1 /* Sleep_Tackler_4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep_Tackler_4Tests.swift; sourceTree = "<group>"; };
+		1523FBEE255A455600733FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1523FBF3255A455600733FC1 /* Sleep_Tackler_4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sleep_Tackler_4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1523FBF7255A455600733FC1 /* Sleep_Tackler_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep_Tackler_4UITests.swift; sourceTree = "<group>"; };
+		1523FBF9255A455600733FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1523FC05255A4A9B00733FC1 /* TealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TealViewController.swift; sourceTree = "<group>"; };
+		1523FC07255A4AAC00733FC1 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		1523FC09255A4AB500733FC1 /* PurpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleViewController.swift; sourceTree = "<group>"; };
+		1587854B255F33C200150A15 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		15B2B9B72562130F002B2E06 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		15B2B9B925621332002B2E06 /* ViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewViewController.swift; sourceTree = "<group>"; };
+		25E97B9D5E9B221E5416759B /* Pods-Sleep_Tackler_4-Sleep_Tackler_4UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sleep_Tackler_4-Sleep_Tackler_4UITests.release.xcconfig"; path = "Target Support Files/Pods-Sleep_Tackler_4-Sleep_Tackler_4UITests/Pods-Sleep_Tackler_4-Sleep_Tackler_4UITests.release.xcconfig"; sourceTree = "<group>"; };
+		4567013661A2ECCAA29286E8 /* Pods-Sleep_Tackler_4Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sleep_Tackler_4Tests.debug.xcconfig"; path = "Target Support Files/Pods-Sleep_Tackler_4Tests/Pods-Sleep_Tackler_4Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E093EC86EB330FC74DE5F6A /* Pods-Sleep_Tackler_4Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sleep_Tackler_4Tests.release.xcconfig"; path = "Target Support Files/Pods-Sleep_Tackler_4Tests/Pods-Sleep_Tackler_4Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6150706390A6530C00F7C2CA /* Pods_Sleep_Tackler_4Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sleep_Tackler_4Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E624B0B5F1FDA3A6A908D8E /* Pods-Sleep_Tackler_4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sleep_Tackler_4.debug.xcconfig"; path = "Target Support Files/Pods-Sleep_Tackler_4/Pods-Sleep_Tackler_4.debug.xcconfig"; sourceTree = "<group>"; };
+		87E44B5FEB2EFD6735B4BEF7 /* Pods_Sleep_Tackler_4_Sleep_Tackler_4UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sleep_Tackler_4_Sleep_Tackler_4UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C495CCBEB79A204463E8C73 /* Pods-Sleep_Tackler_4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sleep_Tackler_4.release.xcconfig"; path = "Target Support Files/Pods-Sleep_Tackler_4/Pods-Sleep_Tackler_4.release.xcconfig"; sourceTree = "<group>"; };
+		8EF51CAC6CCC69C709269276 /* Pods-Sleep_Tackler_4-Sleep_Tackler_4UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sleep_Tackler_4-Sleep_Tackler_4UITests.debug.xcconfig"; path = "Target Support Files/Pods-Sleep_Tackler_4-Sleep_Tackler_4UITests/Pods-Sleep_Tackler_4-Sleep_Tackler_4UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6191BF3EDF6D103EBE5F68A /* Pods_Sleep_Tackler_4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sleep_Tackler_4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1523FBCF255A455400733FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C01D59ACC19A5204188BF27 /* Pods_Sleep_Tackler_4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1523FBE5255A455600733FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA657D06E7D094F38A608AF /* Pods_Sleep_Tackler_4Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1523FBF0255A455600733FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7990A018C2ECCC737A8D35 /* Pods_Sleep_Tackler_4_Sleep_Tackler_4UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1523FBC9255A455400733FC1 = {
+			isa = PBXGroup;
+			children = (
+				1523FBD4255A455400733FC1 /* Sleep_Tackler_4 */,
+				1523FBEB255A455600733FC1 /* Sleep_Tackler_4Tests */,
+				1523FBF6255A455600733FC1 /* Sleep_Tackler_4UITests */,
+				1523FBD3255A455400733FC1 /* Products */,
+				BEA787CE6979539DE2451FB9 /* Pods */,
+				7E4E6D76569579EA183EDE89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1523FBD3255A455400733FC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1523FBD2255A455400733FC1 /* Sleep_Tackler_4.app */,
+				1523FBE8255A455600733FC1 /* Sleep_Tackler_4Tests.xctest */,
+				1523FBF3255A455600733FC1 /* Sleep_Tackler_4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1523FBD4255A455400733FC1 /* Sleep_Tackler_4 */ = {
+			isa = PBXGroup;
+			children = (
+				1523FBD5255A455400733FC1 /* AppDelegate.swift */,
+				1523FBD7255A455400733FC1 /* SceneDelegate.swift */,
+				1523FBD9255A455400733FC1 /* ViewController.swift */,
+				1523FBDB255A455400733FC1 /* Main.storyboard */,
+				1587854B255F33C200150A15 /* RedViewController.swift */,
+				1523FC05255A4A9B00733FC1 /* TealViewController.swift */,
+				1523FC07255A4AAC00733FC1 /* GreenViewController.swift */,
+				1523FC09255A4AB500733FC1 /* PurpleViewController.swift */,
+				1523FBDE255A455500733FC1 /* Assets.xcassets */,
+				1523FBE0255A455500733FC1 /* LaunchScreen.storyboard */,
+				1523FBE3255A455500733FC1 /* Info.plist */,
+				15B2B9B72562130F002B2E06 /* EntryViewController.swift */,
+				15B2B9B925621332002B2E06 /* ViewViewController.swift */,
+			);
+			path = Sleep_Tackler_4;
+			sourceTree = "<group>";
+		};
+		1523FBEB255A455600733FC1 /* Sleep_Tackler_4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1523FBEC255A455600733FC1 /* Sleep_Tackler_4Tests.swift */,
+				1523FBEE255A455600733FC1 /* Info.plist */,
+			);
+			path = Sleep_Tackler_4Tests;
+			sourceTree = "<group>";
+		};
+		1523FBF6255A455600733FC1 /* Sleep_Tackler_4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1523FBF7255A455600733FC1 /* Sleep_Tackler_4UITests.swift */,
+				1523FBF9255A455600733FC1 /* Info.plist */,
+			);
+			path = Sleep_Tackler_4UITests;
+			sourceTree = "<group>";
+		};
+		7E4E6D76569579EA183EDE89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6191BF3EDF6D103EBE5F68A /* Pods_Sleep_Tackler_4.framework */,
+				87E44B5FEB2EFD6735B4BEF7 /* Pods_Sleep_Tackler_4_Sleep_Tackler_4UITests.framework */,
+				6150706390A6530C00F7C2CA /* Pods_Sleep_Tackler_4Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEA787CE6979539DE2451FB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E624B0B5F1FDA3A6A908D8E /* Pods-Sleep_Tackler_4.debug.xcconfig */,
+				8C495CCBEB79A204463E8C73 /* Pods-Sleep_Tackler_4.release.xcconfig */,
+				8EF51CAC6CCC69C709269276 /* Pods-Sleep_Tackler_4-Sleep_Tackler_4UITests.debug.xcconfig */,
+				25E97B9D5E9B221E5416759B /* Pods-Sleep_Tackler_4-Sleep_Tackler_4UITests.release.xcconfig */,
+				4567013661A2ECCAA29286E8 /* Pods-Sleep_Tackler_4Tests.debug.xcconfig */,
+				4E093EC86EB330FC74DE5F6A /* Pods-Sleep_Tackler_4Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1523FBD1255A455400733FC1 /* Sleep_Tackler_4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1523FBFC255A455600733FC1 /* Build configuration list for PBXNativeTarget "Sleep_Tackler_4" */;
+			buildPhases = (
+				5A93B597A2A9CEEBC1580E3C /* [CP] Check Pods Manifest.lock */,
+				1523FBCE255A455400733FC1 /* Sources */,
+				1523FBCF255A455400733FC1 /* Frameworks */,
+				1523FBD0255A455400733FC1 /* Resources */,
+				B0966B2532026DB5270AE2C8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sleep_Tackler_4;
+			productName = Sleep_Tackler_4;
+			productReference = 1523FBD2255A455400733FC1 /* Sleep_Tackler_4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1523FBE7255A455600733FC1 /* Sleep_Tackler_4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1523FBFF255A455600733FC1 /* Build configuration list for PBXNativeTarget "Sleep_Tackler_4Tests" */;
+			buildPhases = (
+				A1DB57A8AEEED12959837FCF /* [CP] Check Pods Manifest.lock */,
+				1523FBE4255A455600733FC1 /* Sources */,
+				1523FBE5255A455600733FC1 /* Frameworks */,
+				1523FBE6255A455600733FC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1523FBEA255A455600733FC1 /* PBXTargetDependency */,
+			);
+			name = Sleep_Tackler_4Tests;
+			productName = Sleep_Tackler_4Tests;
+			productReference = 1523FBE8255A455600733FC1 /* Sleep_Tackler_4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1523FBF2255A455600733FC1 /* Sleep_Tackler_4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1523FC02255A455600733FC1 /* Build configuration list for PBXNativeTarget "Sleep_Tackler_4UITests" */;
+			buildPhases = (
+				A7950E621CCCA0852A5545C3 /* [CP] Check Pods Manifest.lock */,
+				1523FBEF255A455600733FC1 /* Sources */,
+				1523FBF0255A455600733FC1 /* Frameworks */,
+				1523FBF1255A455600733FC1 /* Resources */,
+				63B2C85E2C8F107404D6907A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1523FBF5255A455600733FC1 /* PBXTargetDependency */,
+			);
+			name = Sleep_Tackler_4UITests;
+			productName = Sleep_Tackler_4UITests;
+			productReference = 1523FBF3255A455600733FC1 /* Sleep_Tackler_4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1523FBCA255A455400733FC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Akash Vemulapalli";
+				TargetAttributes = {
+					1523FBD1255A455400733FC1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					1523FBE7255A455600733FC1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1523FBD1255A455400733FC1;
+					};
+					1523FBF2255A455600733FC1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 1523FBD1255A455400733FC1;
+					};
+				};
+			};
+			buildConfigurationList = 1523FBCD255A455400733FC1 /* Build configuration list for PBXProject "Sleep_Tackler_4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1523FBC9255A455400733FC1;
+			productRefGroup = 1523FBD3255A455400733FC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1523FBD1255A455400733FC1 /* Sleep_Tackler_4 */,
+				1523FBE7255A455600733FC1 /* Sleep_Tackler_4Tests */,
+				1523FBF2255A455600733FC1 /* Sleep_Tackler_4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1523FBD0255A455400733FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1523FBE2255A455500733FC1 /* LaunchScreen.storyboard in Resources */,
+				1523FBDF255A455500733FC1 /* Assets.xcassets in Resources */,
+				1523FBDD255A455400733FC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1523FBE6255A455600733FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1523FBF1255A455600733FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A93B597A2A9CEEBC1580E3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sleep_Tackler_4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63B2C85E2C8F107404D6907A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sleep_Tackler_4-Sleep_Tackler_4UITests/Pods-Sleep_Tackler_4-Sleep_Tackler_4UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sleep_Tackler_4-Sleep_Tackler_4UITests/Pods-Sleep_Tackler_4-Sleep_Tackler_4UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sleep_Tackler_4-Sleep_Tackler_4UITests/Pods-Sleep_Tackler_4-Sleep_Tackler_4UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1DB57A8AEEED12959837FCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sleep_Tackler_4Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7950E621CCCA0852A5545C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sleep_Tackler_4-Sleep_Tackler_4UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0966B2532026DB5270AE2C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sleep_Tackler_4/Pods-Sleep_Tackler_4-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sleep_Tackler_4/Pods-Sleep_Tackler_4-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sleep_Tackler_4/Pods-Sleep_Tackler_4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1523FBCE255A455400733FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1587854C255F33C200150A15 /* RedViewController.swift in Sources */,
+				1523FC06255A4A9B00733FC1 /* TealViewController.swift in Sources */,
+				1523FBDA255A455400733FC1 /* ViewController.swift in Sources */,
+				15B2B9BA25621332002B2E06 /* ViewViewController.swift in Sources */,
+				1523FC0A255A4AB500733FC1 /* PurpleViewController.swift in Sources */,
+				1523FBD6255A455400733FC1 /* AppDelegate.swift in Sources */,
+				15B2B9B82562130F002B2E06 /* EntryViewController.swift in Sources */,
+				1523FBD8255A455400733FC1 /* SceneDelegate.swift in Sources */,
+				1523FC08255A4AAC00733FC1 /* GreenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1523FBE4255A455600733FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1523FBED255A455600733FC1 /* Sleep_Tackler_4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1523FBEF255A455600733FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1523FBF8255A455600733FC1 /* Sleep_Tackler_4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1523FBEA255A455600733FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1523FBD1255A455400733FC1 /* Sleep_Tackler_4 */;
+			targetProxy = 1523FBE9255A455600733FC1 /* PBXContainerItemProxy */;
+		};
+		1523FBF5255A455600733FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1523FBD1255A455400733FC1 /* Sleep_Tackler_4 */;
+			targetProxy = 1523FBF4255A455600733FC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1523FBDB255A455400733FC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1523FBDC255A455400733FC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1523FBE0255A455500733FC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1523FBE1255A455500733FC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1523FBFA255A455600733FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1523FBFB255A455600733FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1523FBFD255A455600733FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E624B0B5F1FDA3A6A908D8E /* Pods-Sleep_Tackler_4.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sleep_Tackler_4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akash.Sleep-Tackler-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1523FBFE255A455600733FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C495CCBEB79A204463E8C73 /* Pods-Sleep_Tackler_4.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sleep_Tackler_4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akash.Sleep-Tackler-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1523FC00255A455600733FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4567013661A2ECCAA29286E8 /* Pods-Sleep_Tackler_4Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sleep_Tackler_4Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akash.Sleep-Tackler-4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sleep_Tackler_4.app/Sleep_Tackler_4";
+			};
+			name = Debug;
+		};
+		1523FC01255A455600733FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E093EC86EB330FC74DE5F6A /* Pods-Sleep_Tackler_4Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sleep_Tackler_4Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akash.Sleep-Tackler-4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sleep_Tackler_4.app/Sleep_Tackler_4";
+			};
+			name = Release;
+		};
+		1523FC03255A455600733FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF51CAC6CCC69C709269276 /* Pods-Sleep_Tackler_4-Sleep_Tackler_4UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sleep_Tackler_4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akash.Sleep-Tackler-4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sleep_Tackler_4;
+			};
+			name = Debug;
+		};
+		1523FC04255A455600733FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25E97B9D5E9B221E5416759B /* Pods-Sleep_Tackler_4-Sleep_Tackler_4UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sleep_Tackler_4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "akash.Sleep-Tackler-4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sleep_Tackler_4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1523FBCD255A455400733FC1 /* Build configuration list for PBXProject "Sleep_Tackler_4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1523FBFA255A455600733FC1 /* Debug */,
+				1523FBFB255A455600733FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1523FBFC255A455600733FC1 /* Build configuration list for PBXNativeTarget "Sleep_Tackler_4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1523FBFD255A455600733FC1 /* Debug */,
+				1523FBFE255A455600733FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1523FBFF255A455600733FC1 /* Build configuration list for PBXNativeTarget "Sleep_Tackler_4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1523FC00255A455600733FC1 /* Debug */,
+				1523FC01255A455600733FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1523FC02255A455600733FC1 /* Build configuration list for PBXNativeTarget "Sleep_Tackler_4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1523FC03255A455600733FC1 /* Debug */,
+				1523FC04255A455600733FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1523FBCA255A455400733FC1 /* Project object */;
+}
